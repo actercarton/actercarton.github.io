@@ -1,0 +1,183 @@
+body{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url("../img/bg.png");
+}
+
+a{
+  color: #bf0b0b;
+}
+
+a:hover{
+  color: #000;
+}
+
+hr{
+  border: none;
+  height: 2px;
+  color: #fff;
+  background-color: #fff;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+table{
+  width: 100%;
+}
+
+.logo{
+  padding-bottom: 8px;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navbar{
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.navbar-default{
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand{
+  text-transform: uppercase;
+  color: #000;
+}
+
+ul.nav.navbar-nav{
+  text-transform: uppercase;
+}
+
+.container-fluid.title{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-fluid.subtitle{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-fluid.body{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+}
+
+.container-fluid.navi{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-fluid.nf{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-fluid.slider{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-fluid.footer{
+  display:block;
+  overflow:auto;
+  background-color: #373737;
+  color: #e7e7e7;
+}
+
+.row.navi{
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.row.footer{
+  padding-top: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.row.footnote{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10px;
+}
+
+.col-md-12.title h1,.col-md-12.title h4{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.col-md-12.nf{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.col-md-12.nf h1{
+  font-size: 75px;
+}
+
+.col-md-9.main-text, .col-md-3.sub-text{
+  padding-bottom: 10px;
+}
+
+.col-md-3.navi{
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.col-md-3.navi h1,.col-md-3.navi h4{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.col-md-3.footer{
+  padding-bottom: 25px;
+}
+
+.navibox{
+  padding-top: 35px;
+  padding-bottom: 45px;
+  border: 1px solid;
+  border-radius: 4px;
+  border-color: #e7e7e7;
+  background-color: rgba(231, 231, 231, 0.4);
+}
+
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+}
+
+.image img{
+  width: 100%;
+  height: auto;
+}
+
+.image.gallery{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.products img{
+  background-color: #fff;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: #b73333;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #bf0b0b;
+  font-weight: bold;
+}
