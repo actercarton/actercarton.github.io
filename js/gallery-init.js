@@ -101,9 +101,6 @@ var product = function(type) {
       break;
   };
 
-  console.log(typeName);
-  console.log(j);
-
   for(i = 1; i <= j; i++){
     doc += '\
     <div class="col-md-3 image">\
