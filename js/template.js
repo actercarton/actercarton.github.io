@@ -49,8 +49,15 @@ var header = function(title){
   var navId = 'li#' + title;
   var doc ='\
   <div class="logo">\
-    <a href="http://actercarton.com">\
-      <img src="../img/blogo.png">\
+    <a href="http://actercarton.com">'
+
+  if(title == '404' || title == 'home'){
+    doc += '<img src="img/blogo.png">'
+  }else{
+    doc += '<img src="../img/blogo.png">'
+  }
+
+  doc += '\
     </a>\
   </div>\
   <header>\
