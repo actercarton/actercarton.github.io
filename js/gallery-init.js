@@ -109,7 +109,7 @@ var product = function(type) {
     <div class="col-md-3 image">\
       <div class="image gallery products">\
         <a href="../img/products/' + type + i + '.png" data-gallery>\
-          <img src="../img/products/' + type + i + '.png" alt = "' + typeName + ' - ' + i +'">\
+          <img src="../img/products/thumb/' + type + i + '.png" alt = "' + typeName + ' - ' + i +'">\
         </a>\
       </div>\
     </div>\
