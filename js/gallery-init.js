@@ -46,8 +46,8 @@ var manu = function() {
     doc += '\
     <div class="col-md-3 image">\
       <div class="image gallery">\
-        <a href="img/manufacturing/' + i + '.jpg" data-gallery>\
-          <img src="img/manufacturing/' + i + '.jpg">\
+        <a href="../img/manufacturing/' + i + '.jpg" data-gallery>\
+          <img src="../img/manufacturing/' + i + '.jpg">\
         </a>\
       </div>\
     </div>\
@@ -108,8 +108,8 @@ var product = function(type) {
     doc += '\
     <div class="col-md-3 image">\
       <div class="image gallery products">\
-        <a href="img/products/' + type + i + '.png" data-gallery>\
-          <img src="img/products/' + type + i + '.png" alt = "' + typeName + ' - ' + i +'">\
+        <a href="../img/products/' + type + i + '.png" data-gallery>\
+          <img src="../img/products/' + type + i + '.png" alt = "' + typeName + ' - ' + i +'">\
         </a>\
       </div>\
     </div>\
