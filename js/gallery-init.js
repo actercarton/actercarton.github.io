@@ -46,8 +46,8 @@ var manu = function() {
     doc += '\
     <div class="col-md-3 image">\
       <div class="image gallery">\
-        <a href="../img/manufacturing/' + i + '.jpg" data-gallery>\
-          <img src="../img/manufacturing/' + i + '.jpg">\
+        <a href="../img/manufacturing/' + i + '.JPG" data-gallery>\
+          <img src="../img/manufacturing/' + i + '.JPG">\
         </a>\
       </div>\
     </div>\
