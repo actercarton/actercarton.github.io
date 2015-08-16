@@ -3,32 +3,32 @@ var head = function(gallery){
   if(gallery == true){
     doc += '\
     <!-- Bootstrap Image Gallery css-->\
-    <link rel="stylesheet" href="css/gallery/bootstrap.min.css">\
-    <link rel="stylesheet" href="css/gallery/blueimp-gallery.min.css">\
-    <link rel="stylesheet" href="css/gallery/bootstrap-image-gallery.min.css">\
+    <link rel="stylesheet" href="../css/gallery/bootstrap.min.css">\
+    <link rel="stylesheet" href="../css/gallery/blueimp-gallery.min.css">\
+    <link rel="stylesheet" href="../css/gallery/bootstrap-image-gallery.min.css">\
     '
   };
 
   doc +='\
     <!-- Bootstrap -->\
-    <link href="css/bootstrap.min.css" rel="stylesheet">\
+    <link href="../css/bootstrap.min.css" rel="stylesheet">\
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">\
-    <link href="css/style.css" rel="stylesheet">\
+    <link href="../css/style.css" rel="stylesheet">\
     <!-- jQuery (necessary for Bootstrap\'s JavaScript plugins) -->\
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>\
     <!-- Include all compiled plugins (below), or include individual files as needed -->\
-    <script src="js/bootstrap.min.js"></script>\
+    <script src="../js/bootstrap.min.js"></script>\
     <!-- Calendar script-->\
-    <script src="js/calendar.js"></script>\
-    <!-- Toggle script-->\
-    <script src="js/toggle.js"></script>'
+    <script src="../js/calendar.js"></script>'
 
   if(gallery == true){
     doc += '\
+    <!-- Toggle script-->\
+    <script src="../js/toggle.js"></script>\
     <!-- Bootstrap Image Gallery files-->\
-    <script src="js/gallery/jquery.blueimp-gallery.min.js"></script>\
-    <script src="js/gallery/bootstrap-image-gallery.min.js"></script>\
-    <script src="js/gallery-init.js"></script>\
+    <script src="../js/gallery/jquery.blueimp-gallery.min.js"></script>\
+    <script src="../js/gallery/bootstrap-image-gallery.min.js"></script>\
+    <script src="../js/gallery-init.js"></script>\
     '
   };
 
@@ -40,8 +40,7 @@ var head = function(gallery){
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>\
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>\
     <![endif]-->\
-  </head>\
-  '
+    '
 
   document.write(doc);
 };
