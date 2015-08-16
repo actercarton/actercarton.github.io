@@ -49,7 +49,7 @@ var header = function(title){
   var navId = 'li#' + title;
   var doc ='\
   <div class="logo">\
-    <a href="//">'
+    <a href="/">'
 
   if(title == '404' || title == 'home'){
     doc += '<img src="img/blogo.png">'
@@ -65,7 +65,7 @@ var header = function(title){
       <div class="container-fluid">\
         <!--Mobile-friendly navbar-->\
         <div class="navbar-header">\
-          <a class="navbar-brand" href="//">Acter Carton Enterprise Sdn Bhd</a>\
+          <a class="navbar-brand" href="/">Acter Carton Enterprise Sdn Bhd</a>\
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">\
             <span class="sr-only">Toggle navigation</span>\
             <span class="icon-bar"></span>\
