@@ -70,10 +70,10 @@ var header = function(title){
         <!--Normal navbar-->\
         <div class="collapse navbar-collapse" id="main-navbar">\
           <ul class="nav navbar-nav navbar-right">\
-            <li id="about"><a href="about.html">About</a></li>\
-            <li id="manufacturing"><a href="manufacturing.html">Manufacturing</a></li>\
-            <li id="products"><a href="products.html">Products</a></li>\
-            <li id="contact"><a href="contact.html">Contact</a></li>\
+            <li id="about"><a href="/about">About</a></li>\
+            <li id="manufacturing"><a href="/manufacturing">Manufacturing</a></li>\
+            <li id="products"><a href="/products">Products</a></li>\
+            <li id="contact"><a href="/contact">Contact</a></li>\
           </ul>\
         </div>\
       </div>\
@@ -102,18 +102,18 @@ var footer = function(title){
             manufacturing corrugated carton boxes in Malaysia. Since its\
             incorporation in 1992, Acter has been specializing in designing\
             creative packaging products to keep up with the diverse trend of\
-            today\'s paper box market.<a href="about.html"><i> More...</i></a>\
+            today\'s paper box market.<a href="/about"><i> More...</i></a>\
           </p>\
         </div>\
         <!-- Sitemap Column Footer -->\
         <div class="col-md-3 footer">\
           <h4><b>Sitemap</b></h4>\
           <ul class="nav nav-pills nav-stacked">\
-          <li id="home"><a href="index.html">Home</a></li>\
-          <li id="about"><a href="about.html">About</a></li>\
-          <li id="manufacturing"><a href="manufacturing.html">Manufacturing</a></li>\
-          <li id="products"><a href="products.html">Products</a></li>\
-          <li id="contact"><a href="contact.html">Contact</a></li>\
+          <li id="home"><a href="/">Home</a></li>\
+          <li id="about"><a href="/about">About</a></li>\
+          <li id="manufacturing"><a href="/manufacturing">Manufacturing</a></li>\
+          <li id="products"><a href="/products">Products</a></li>\
+          <li id="contact"><a href="/contact">Contact</a></li>\
           </ul>\
         </div>\
         <!-- Calendar Column Footer-->\
